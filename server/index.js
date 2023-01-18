@@ -21,7 +21,6 @@ app.use('/user', userRoutes);
 //})
 
 
-***REMOVED***
 const PORT = process.env.PORT || 3000;
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true})
