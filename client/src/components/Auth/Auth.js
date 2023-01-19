@@ -22,7 +22,7 @@ const Auth = () => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState(initialState);
 
-    ***REMOVED***
+    const clientId = process.env.GOOGLE_CLIENT_ID;
 
     const handleSubmit = (e) => {
         e.preventDefault();
