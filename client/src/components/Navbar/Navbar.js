@@ -36,7 +36,7 @@ const Navbar = () => {
         <AppBar className={classes.appBar} position="static" color='inherit'>
         <div className={classes.brandContainer}>
             <img className={classes.image} src={memories} alt='memories' height="60" />
-            <Typography component={Link} className={classes.heading} variant='h2' align="enter">
+            <Typography component={Link} className={classes.heading} variant='h2' align="center">
                 Travel Memories
             </Typography>
         </div>
